@@ -1,0 +1,1026 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09FF719FDB33306EB785DED7390DA863 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A563CCD3103E88B80C32CE438306469A /* CoreFoundation.framework */; };
+		16E633322189E709B463FC5A4A90070A /* NSObject+LKDBHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = FA48B6C0F7A52B0A1968391772864696 /* NSObject+LKDBHelper.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		1BD8B30269162447517380BE31076C9B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F99019178B74357D66C595968C99CED7 /* Foundation.framework */; };
+		2012864C735C3DD88ECE425F6C981F6B /* FMDatabasePool.h in Headers */ = {isa = PBXBuildFile; fileRef = 4922D38B056DFDF040D104E796E7092C /* FMDatabasePool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		398A5C11EFB816892FD5E18AD24F03D4 /* FMResultSet.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AF708A0FC3D5C0DB80D9818CCEACA18 /* FMResultSet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		40BF33D7AC4C943D0FBCA285CD12E81E /* SocketRocket-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F4002D833E5F8F31AF4D2FA6B1A2F7C /* SocketRocket-dummy.m */; };
+		46403ACC9EE7FEDE3299E385D32467C4 /* NSObject+LKDBHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 63C4A9520DDAD50BDCEC61312921D0EF /* NSObject+LKDBHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B3B2EABA01FE0065CA6693CEE33CA92 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B526D7F505D72AA78BEEB52141D176B /* FMResultSet.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		4DB541C1C41B1C597EC36CDAB5243D1A /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 215EBB5FFF4EFDB8C112AA7AE9B734FB /* FMDatabaseAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		5205E0282101FD04A10C63E038D36212 /* YYClassInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F2487B93C84BC4148F7D327938925D8 /* YYClassInfo.m */; };
+		5232FFA00C3741EBB322CCDB48A87C79 /* Pods-socketAndLKDBHelperDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A77DF955CF1FA877B92AB608F1243D /* Pods-socketAndLKDBHelperDemo-dummy.m */; };
+		5A050CE21F2FD1A50AC3998D952FF2D9 /* YYClassInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 0339A60F15E8E4950425D084D930B76E /* YYClassInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C71F94169EBDE5F437F0F5D020F7397 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F99019178B74357D66C595968C99CED7 /* Foundation.framework */; };
+		6199817CB29DADBC9AB1D4C44E52F5BA /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB06351187CB7EA963D22807F394001 /* FMDatabase.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		61AD4E44A75FDB1E2C0FD598D6B03547 /* NSObject+YYModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 228E429DA330D782735A4189F848B018 /* NSObject+YYModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A2E6130872E513D521314BBE5049250 /* YYModel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B46F258712D74D5A006D66563425629 /* YYModel-dummy.m */; };
+		7B84DAB78DA8A54B59648D4329CF8757 /* LKDBUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 143E507F4E1093E6FF20DD6ED268861F /* LKDBUtils.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		7E50073159940CC56096E878730785A0 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 247063DB168C31DC16961F27413B8F47 /* Security.framework */; };
+		8021697A1557D425AC130472DA1317CC /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D832E99848CB9160B236A1A59CFB64F /* FMDatabasePool.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		889D48A9B81ADF617C1D4E4E9473E3A9 /* FMDB.h in Headers */ = {isa = PBXBuildFile; fileRef = 636C115FC961F0100E56D4878FEF41B9 /* FMDB.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		894249B0EB21ADD74BC540AA419000B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F99019178B74357D66C595968C99CED7 /* Foundation.framework */; };
+		8C8FE823FB0DA31FA72637BBBA637026 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F99019178B74357D66C595968C99CED7 /* Foundation.framework */; };
+		934A66BF4204B4BE633770EA6119B4A2 /* SRWebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F968B2BF24A508E24AD6C8255F8635B /* SRWebSocket.m */; };
+		984A7069626E5CD95F75D50BB182D97D /* SRWebSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = D4244C5272F88B1458A68452DDB29E54 /* SRWebSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		98ABF277A45F1AB72A8D02D53FFE67BF /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B476EB3C2F987B18964FCF1092381A6 /* FMDatabaseQueue.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		99714143FA44A34F87D1F2AA6D254177 /* FMDatabaseQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = F795AF1B31B7A2D18AA2EAEAD13B1F34 /* FMDatabaseQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B4CE6F56A8746BBB589978CD6AD2121 /* YYModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E8FAC5277A2576812E2575A634205C8 /* YYModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D3B71BDA4F59077AFD2475578531A59 /* SocketRocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 081FF2521487B9AF3F094BA28B98DF99 /* SocketRocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A214890A745B4F1792AD91A8B9E4A6A4 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9690DA56660587AA688CCC05DE8F2E45 /* CFNetwork.framework */; };
+		A400111EAE1E4EFFEA196EE2D9D130AC /* NSObject+LKModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D36F7F30B1ABC84D30D337F8B3D243D /* NSObject+LKModel.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A630A49F72F59D9550B95962640D6156 /* LKDBHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = EF5D0D9DB66DCFF0835A619D43703DD7 /* LKDBHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B8379232B772FFD72E2093D24A2B0049 /* LKDBHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C2E8A643BA4E5571E10D92903C06D1 /* LKDBHelper.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C40CFE1274D588CA1A9DF9394BF76EAE /* FMDB-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 778DBC4578061D6C20D7D4E10B17F9AC /* FMDB-dummy.m */; };
+		C8028BEEFB6B67ADCE2D7A866C4F65BA /* LKDBHelper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7105CD0B210C51076931C24DA453D0 /* LKDBHelper-dummy.m */; };
+		CF8C6E59A4C80642EE6CDCF9AA609C4E /* LKDB+Mapping.h in Headers */ = {isa = PBXBuildFile; fileRef = 013D7E697F092DC4269EED4FF5B61EDA /* LKDB+Mapping.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D70545B203347E622216289453CD3A91 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F99019178B74357D66C595968C99CED7 /* Foundation.framework */; };
+		D852415DFD46E85C293E0DDE01868EA2 /* FMDatabase.h in Headers */ = {isa = PBXBuildFile; fileRef = A04F0B9F9607A579B89D166283CF18BF /* FMDatabase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E065ACEDC46C993E391E7D73A7FBD3DD /* LKDB+Mapping.m in Sources */ = {isa = PBXBuildFile; fileRef = FBF57EF653F9A93F0ADF537FA9C75CEC /* LKDB+Mapping.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E39C80B8B21829D1854F5356A492D22C /* NSObject+LKModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 1684377D7463BBE7743155CD186FD729 /* NSObject+LKModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F00CCFAB93A4F18419CD91217B1D5F66 /* FMDatabaseAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = B6CE3DFD6728D0CFC3EEFC953832FFE5 /* FMDatabaseAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F1F92B7DF570D31F4F1048DB042FE206 /* LKDBUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FF9A82FAADE9540691D42885B741E34 /* LKDBUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC6E22BB87AE0B8A070383FFB57EC2B9 /* NSObject+YYModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C3E4109E2733BAC0C646CED84FF80976 /* NSObject+YYModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A10602E599029A2C7444F6D1715615FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8642CC820CE8C5B88C113D7F47AF4BC3;
+			remoteInfo = FMDB;
+		};
+		C9C4E58E1145078154B5892C60BA8174 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2370A2A05D3BB543D5201B42527C3E48;
+			remoteInfo = YYModel;
+		};
+		D3A0E1A466ED35A013A46D02CEDE73C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65FDD9BECC6AC1E0542C248D460A461B;
+			remoteInfo = SocketRocket;
+		};
+		DA78AE7EBFD59E843FF41499B8BC3E0D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1A57F063DAC9B33748B129DD30F145E;
+			remoteInfo = LKDBHelper;
+		};
+		E781AB5C044914AEC9FC4FDFF19B8F20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8642CC820CE8C5B88C113D7F47AF4BC3;
+			remoteInfo = FMDB;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		013D7E697F092DC4269EED4FF5B61EDA /* LKDB+Mapping.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "LKDB+Mapping.h"; path = "LKDBHelper/Helper/LKDB+Mapping.h"; sourceTree = "<group>"; };
+		0339A60F15E8E4950425D084D930B76E /* YYClassInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYClassInfo.h; path = YYModel/YYClassInfo.h; sourceTree = "<group>"; };
+		0436AEF65C3DAF698D9E919CC4DBB5F0 /* FMDB-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FMDB-prefix.pch"; sourceTree = "<group>"; };
+		081FF2521487B9AF3F094BA28B98DF99 /* SocketRocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SocketRocket.h; path = SocketRocket/SocketRocket.h; sourceTree = "<group>"; };
+		0B46F258712D74D5A006D66563425629 /* YYModel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YYModel-dummy.m"; sourceTree = "<group>"; };
+		0F2487B93C84BC4148F7D327938925D8 /* YYClassInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYClassInfo.m; path = YYModel/YYClassInfo.m; sourceTree = "<group>"; };
+		1165F05B144E52DD9B5F0F755293AC13 /* Pods-socketAndLKDBHelperDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-socketAndLKDBHelperDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		125041AB6C76B6BA9EE2A98ED9E5EEAD /* libPods-socketAndLKDBHelperDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-socketAndLKDBHelperDemo.a"; path = "libPods-socketAndLKDBHelperDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		143E507F4E1093E6FF20DD6ED268861F /* LKDBUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKDBUtils.m; path = LKDBHelper/Helper/LKDBUtils.m; sourceTree = "<group>"; };
+		1684377D7463BBE7743155CD186FD729 /* NSObject+LKModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+LKModel.h"; path = "LKDBHelper/Helper/NSObject+LKModel.h"; sourceTree = "<group>"; };
+		1B476EB3C2F987B18964FCF1092381A6 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseQueue.m; path = src/fmdb/FMDatabaseQueue.m; sourceTree = "<group>"; };
+		1F4002D833E5F8F31AF4D2FA6B1A2F7C /* SocketRocket-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SocketRocket-dummy.m"; sourceTree = "<group>"; };
+		1F977723E58E41B2D252D8D8E55F9959 /* YYModel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YYModel.xcconfig; sourceTree = "<group>"; };
+		215EBB5FFF4EFDB8C112AA7AE9B734FB /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseAdditions.m; path = src/fmdb/FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		228E429DA330D782735A4189F848B018 /* NSObject+YYModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+YYModel.h"; path = "YYModel/NSObject+YYModel.h"; sourceTree = "<group>"; };
+		247063DB168C31DC16961F27413B8F47 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		2D832E99848CB9160B236A1A59CFB64F /* FMDatabasePool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabasePool.m; path = src/fmdb/FMDatabasePool.m; sourceTree = "<group>"; };
+		2E8FAC5277A2576812E2575A634205C8 /* YYModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYModel.h; path = YYModel/YYModel.h; sourceTree = "<group>"; };
+		30357179BEC0946E30E6FA1B55374F19 /* libLKDBHelper.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libLKDBHelper.a; path = libLKDBHelper.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		434BE2B470D416BEE097A35B1EBDAA0F /* LKDBHelper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LKDBHelper-prefix.pch"; sourceTree = "<group>"; };
+		4922D38B056DFDF040D104E796E7092C /* FMDatabasePool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabasePool.h; path = src/fmdb/FMDatabasePool.h; sourceTree = "<group>"; };
+		4A1883039706637E8D6FAC362728E392 /* Pods-socketAndLKDBHelperDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-socketAndLKDBHelperDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		4AF708A0FC3D5C0DB80D9818CCEACA18 /* FMResultSet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMResultSet.h; path = src/fmdb/FMResultSet.h; sourceTree = "<group>"; };
+		4D0762E7136BA213710B3D054E9BD2AD /* libSocketRocket.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libSocketRocket.a; path = libSocketRocket.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F968B2BF24A508E24AD6C8255F8635B /* SRWebSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRWebSocket.m; path = SocketRocket/SRWebSocket.m; sourceTree = "<group>"; };
+		50A3F84EF451267D43DD09283EF6E5DC /* YYModel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YYModel-prefix.pch"; sourceTree = "<group>"; };
+		58A77DF955CF1FA877B92AB608F1243D /* Pods-socketAndLKDBHelperDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-socketAndLKDBHelperDemo-dummy.m"; sourceTree = "<group>"; };
+		5DC2A5BCCA602CA74409314677613B47 /* Pods-socketAndLKDBHelperDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-socketAndLKDBHelperDemo-resources.sh"; sourceTree = "<group>"; };
+		636C115FC961F0100E56D4878FEF41B9 /* FMDB.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDB.h; path = src/fmdb/FMDB.h; sourceTree = "<group>"; };
+		63C445DEBFAC4DB6FB7F7296B080DB49 /* libFMDB.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libFMDB.a; path = libFMDB.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		63C4A9520DDAD50BDCEC61312921D0EF /* NSObject+LKDBHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+LKDBHelper.h"; path = "LKDBHelper/Helper/NSObject+LKDBHelper.h"; sourceTree = "<group>"; };
+		698136B025029F35BD9860CB37E53014 /* FMDB.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FMDB.xcconfig; sourceTree = "<group>"; };
+		6C6D8CA762046C063FC12036B0AF6E5C /* SocketRocket-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SocketRocket-prefix.pch"; sourceTree = "<group>"; };
+		778DBC4578061D6C20D7D4E10B17F9AC /* FMDB-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FMDB-dummy.m"; sourceTree = "<group>"; };
+		7B526D7F505D72AA78BEEB52141D176B /* FMResultSet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMResultSet.m; path = src/fmdb/FMResultSet.m; sourceTree = "<group>"; };
+		8D36F7F30B1ABC84D30D337F8B3D243D /* NSObject+LKModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+LKModel.m"; path = "LKDBHelper/Helper/NSObject+LKModel.m"; sourceTree = "<group>"; };
+		8FF9A82FAADE9540691D42885B741E34 /* LKDBUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKDBUtils.h; path = LKDBHelper/Helper/LKDBUtils.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9690DA56660587AA688CCC05DE8F2E45 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		A04F0B9F9607A579B89D166283CF18BF /* FMDatabase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabase.h; path = src/fmdb/FMDatabase.h; sourceTree = "<group>"; };
+		A308F1662F6039E9F26F077855DDD606 /* Pods-socketAndLKDBHelperDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-socketAndLKDBHelperDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A563CCD3103E88B80C32CE438306469A /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/CoreFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		AB6CFCB6B7E57A782AD8AD96A11A9DEA /* Pods-socketAndLKDBHelperDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-socketAndLKDBHelperDemo-frameworks.sh"; sourceTree = "<group>"; };
+		AB72AF9DFA6DB973348A4441FE5D1D84 /* Pods-socketAndLKDBHelperDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-socketAndLKDBHelperDemo.release.xcconfig"; sourceTree = "<group>"; };
+		B6CE3DFD6728D0CFC3EEFC953832FFE5 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabaseAdditions.h; path = src/fmdb/FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		C3E4109E2733BAC0C646CED84FF80976 /* NSObject+YYModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+YYModel.m"; path = "YYModel/NSObject+YYModel.m"; sourceTree = "<group>"; };
+		C614E2156595E9AD00D6D60C1C4E998E /* LKDBHelper.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LKDBHelper.xcconfig; sourceTree = "<group>"; };
+		CCB06351187CB7EA963D22807F394001 /* FMDatabase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabase.m; path = src/fmdb/FMDatabase.m; sourceTree = "<group>"; };
+		D4244C5272F88B1458A68452DDB29E54 /* SRWebSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRWebSocket.h; path = SocketRocket/SRWebSocket.h; sourceTree = "<group>"; };
+		E0B166A1B027B1C9CC622D049CE9C5AD /* libYYModel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libYYModel.a; path = libYYModel.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2C2E8A643BA4E5571E10D92903C06D1 /* LKDBHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LKDBHelper.m; path = LKDBHelper/Helper/LKDBHelper.m; sourceTree = "<group>"; };
+		EE7105CD0B210C51076931C24DA453D0 /* LKDBHelper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LKDBHelper-dummy.m"; sourceTree = "<group>"; };
+		EF5D0D9DB66DCFF0835A619D43703DD7 /* LKDBHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LKDBHelper.h; path = LKDBHelper/Helper/LKDBHelper.h; sourceTree = "<group>"; };
+		F77BAD4588BA0115AE90927E67E7B59B /* SocketRocket.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SocketRocket.xcconfig; sourceTree = "<group>"; };
+		F795AF1B31B7A2D18AA2EAEAD13B1F34 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabaseQueue.h; path = src/fmdb/FMDatabaseQueue.h; sourceTree = "<group>"; };
+		F99019178B74357D66C595968C99CED7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		FA48B6C0F7A52B0A1968391772864696 /* NSObject+LKDBHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+LKDBHelper.m"; path = "LKDBHelper/Helper/NSObject+LKDBHelper.m"; sourceTree = "<group>"; };
+		FBF57EF653F9A93F0ADF537FA9C75CEC /* LKDB+Mapping.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "LKDB+Mapping.m"; path = "LKDBHelper/Helper/LKDB+Mapping.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		025694188CB9A7D96CC58750018B4FFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C8FE823FB0DA31FA72637BBBA637026 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05525BC1D025DDCC72B7BA386E0D8B8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BD8B30269162447517380BE31076C9B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B6DC06679AB716D8333F73FE8434E49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A214890A745B4F1792AD91A8B9E4A6A4 /* CFNetwork.framework in Frameworks */,
+				D70545B203347E622216289453CD3A91 /* Foundation.framework in Frameworks */,
+				7E50073159940CC56096E878730785A0 /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4615358C7C936390EF45A0B6AC8BE12A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09FF719FDB33306EB785DED7390DA863 /* CoreFoundation.framework in Frameworks */,
+				894249B0EB21ADD74BC540AA419000B8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E4CEFA5430E2C4E38DB90F1EB9DDA98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C71F94169EBDE5F437F0F5D020F7397 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		026C2C4C8AE1E121C176A7E6CB42A592 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F77BAD4588BA0115AE90927E67E7B59B /* SocketRocket.xcconfig */,
+				1F4002D833E5F8F31AF4D2FA6B1A2F7C /* SocketRocket-dummy.m */,
+				6C6D8CA762046C063FC12036B0AF6E5C /* SocketRocket-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SocketRocket";
+			sourceTree = "<group>";
+		};
+		120F4840BB2CE28348D70BA02CCCD9ED /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				BF31B2AD4BBA35FE55E44D97432DF290 /* standard */,
+				EE2C7649F6A99DBF41BEB84D2F794C2F /* Support Files */,
+			);
+			name = FMDB;
+			path = FMDB;
+			sourceTree = "<group>";
+		};
+		129A1B94771EBAC0EB493E561A1500EF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C614E2156595E9AD00D6D60C1C4E998E /* LKDBHelper.xcconfig */,
+				EE7105CD0B210C51076931C24DA453D0 /* LKDBHelper-dummy.m */,
+				434BE2B470D416BEE097A35B1EBDAA0F /* LKDBHelper-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/LKDBHelper";
+			sourceTree = "<group>";
+		};
+		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				522B9493A8EBC9BE2CDBD7E206330F96 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1757C13953317674A78A1497A4B28543 /* Pods-socketAndLKDBHelperDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A308F1662F6039E9F26F077855DDD606 /* Pods-socketAndLKDBHelperDemo-acknowledgements.markdown */,
+				1165F05B144E52DD9B5F0F755293AC13 /* Pods-socketAndLKDBHelperDemo-acknowledgements.plist */,
+				58A77DF955CF1FA877B92AB608F1243D /* Pods-socketAndLKDBHelperDemo-dummy.m */,
+				AB6CFCB6B7E57A782AD8AD96A11A9DEA /* Pods-socketAndLKDBHelperDemo-frameworks.sh */,
+				5DC2A5BCCA602CA74409314677613B47 /* Pods-socketAndLKDBHelperDemo-resources.sh */,
+				4A1883039706637E8D6FAC362728E392 /* Pods-socketAndLKDBHelperDemo.debug.xcconfig */,
+				AB72AF9DFA6DB973348A4441FE5D1D84 /* Pods-socketAndLKDBHelperDemo.release.xcconfig */,
+			);
+			name = "Pods-socketAndLKDBHelperDemo";
+			path = "Target Support Files/Pods-socketAndLKDBHelperDemo";
+			sourceTree = "<group>";
+		};
+		522B9493A8EBC9BE2CDBD7E206330F96 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				9690DA56660587AA688CCC05DE8F2E45 /* CFNetwork.framework */,
+				A563CCD3103E88B80C32CE438306469A /* CoreFoundation.framework */,
+				F99019178B74357D66C595968C99CED7 /* Foundation.framework */,
+				247063DB168C31DC16961F27413B8F47 /* Security.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		64BD1762926F719293CCADED6AA9BF42 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1757C13953317674A78A1497A4B28543 /* Pods-socketAndLKDBHelperDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		75658CA83CCC49B5CCA4DB1B1EBA8F2F /* YYModel */ = {
+			isa = PBXGroup;
+			children = (
+				228E429DA330D782735A4189F848B018 /* NSObject+YYModel.h */,
+				C3E4109E2733BAC0C646CED84FF80976 /* NSObject+YYModel.m */,
+				0339A60F15E8E4950425D084D930B76E /* YYClassInfo.h */,
+				0F2487B93C84BC4148F7D327938925D8 /* YYClassInfo.m */,
+				2E8FAC5277A2576812E2575A634205C8 /* YYModel.h */,
+				C62B3E6A9C7CE9CBDAC4CD7BD3842B7A /* Support Files */,
+			);
+			name = YYModel;
+			path = YYModel;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
+				D4A56FAFD15232A85ED6058B676CD89C /* Pods */,
+				B418B61BC63FE3851A8BE6847D2A1D20 /* Products */,
+				64BD1762926F719293CCADED6AA9BF42 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		B418B61BC63FE3851A8BE6847D2A1D20 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63C445DEBFAC4DB6FB7F7296B080DB49 /* libFMDB.a */,
+				30357179BEC0946E30E6FA1B55374F19 /* libLKDBHelper.a */,
+				125041AB6C76B6BA9EE2A98ED9E5EEAD /* libPods-socketAndLKDBHelperDemo.a */,
+				4D0762E7136BA213710B3D054E9BD2AD /* libSocketRocket.a */,
+				E0B166A1B027B1C9CC622D049CE9C5AD /* libYYModel.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5E7EDCEBE72A2CC71F397F2B06938D8 /* SocketRocket */ = {
+			isa = PBXGroup;
+			children = (
+				081FF2521487B9AF3F094BA28B98DF99 /* SocketRocket.h */,
+				D4244C5272F88B1458A68452DDB29E54 /* SRWebSocket.h */,
+				4F968B2BF24A508E24AD6C8255F8635B /* SRWebSocket.m */,
+				026C2C4C8AE1E121C176A7E6CB42A592 /* Support Files */,
+			);
+			name = SocketRocket;
+			path = SocketRocket;
+			sourceTree = "<group>";
+		};
+		BF31B2AD4BBA35FE55E44D97432DF290 /* standard */ = {
+			isa = PBXGroup;
+			children = (
+				A04F0B9F9607A579B89D166283CF18BF /* FMDatabase.h */,
+				CCB06351187CB7EA963D22807F394001 /* FMDatabase.m */,
+				B6CE3DFD6728D0CFC3EEFC953832FFE5 /* FMDatabaseAdditions.h */,
+				215EBB5FFF4EFDB8C112AA7AE9B734FB /* FMDatabaseAdditions.m */,
+				4922D38B056DFDF040D104E796E7092C /* FMDatabasePool.h */,
+				2D832E99848CB9160B236A1A59CFB64F /* FMDatabasePool.m */,
+				F795AF1B31B7A2D18AA2EAEAD13B1F34 /* FMDatabaseQueue.h */,
+				1B476EB3C2F987B18964FCF1092381A6 /* FMDatabaseQueue.m */,
+				636C115FC961F0100E56D4878FEF41B9 /* FMDB.h */,
+				4AF708A0FC3D5C0DB80D9818CCEACA18 /* FMResultSet.h */,
+				7B526D7F505D72AA78BEEB52141D176B /* FMResultSet.m */,
+			);
+			name = standard;
+			sourceTree = "<group>";
+		};
+		C62B3E6A9C7CE9CBDAC4CD7BD3842B7A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F977723E58E41B2D252D8D8E55F9959 /* YYModel.xcconfig */,
+				0B46F258712D74D5A006D66563425629 /* YYModel-dummy.m */,
+				50A3F84EF451267D43DD09283EF6E5DC /* YYModel-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/YYModel";
+			sourceTree = "<group>";
+		};
+		CA05D5B51E85F79B0B071FCE5ADA162B /* LKDBHelper */ = {
+			isa = PBXGroup;
+			children = (
+				013D7E697F092DC4269EED4FF5B61EDA /* LKDB+Mapping.h */,
+				FBF57EF653F9A93F0ADF537FA9C75CEC /* LKDB+Mapping.m */,
+				EF5D0D9DB66DCFF0835A619D43703DD7 /* LKDBHelper.h */,
+				E2C2E8A643BA4E5571E10D92903C06D1 /* LKDBHelper.m */,
+				8FF9A82FAADE9540691D42885B741E34 /* LKDBUtils.h */,
+				143E507F4E1093E6FF20DD6ED268861F /* LKDBUtils.m */,
+				63C4A9520DDAD50BDCEC61312921D0EF /* NSObject+LKDBHelper.h */,
+				FA48B6C0F7A52B0A1968391772864696 /* NSObject+LKDBHelper.m */,
+				1684377D7463BBE7743155CD186FD729 /* NSObject+LKModel.h */,
+				8D36F7F30B1ABC84D30D337F8B3D243D /* NSObject+LKModel.m */,
+				129A1B94771EBAC0EB493E561A1500EF /* Support Files */,
+			);
+			name = LKDBHelper;
+			path = LKDBHelper;
+			sourceTree = "<group>";
+		};
+		D4A56FAFD15232A85ED6058B676CD89C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				120F4840BB2CE28348D70BA02CCCD9ED /* FMDB */,
+				CA05D5B51E85F79B0B071FCE5ADA162B /* LKDBHelper */,
+				B5E7EDCEBE72A2CC71F397F2B06938D8 /* SocketRocket */,
+				75658CA83CCC49B5CCA4DB1B1EBA8F2F /* YYModel */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EE2C7649F6A99DBF41BEB84D2F794C2F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				698136B025029F35BD9860CB37E53014 /* FMDB.xcconfig */,
+				778DBC4578061D6C20D7D4E10B17F9AC /* FMDB-dummy.m */,
+				0436AEF65C3DAF698D9E919CC4DBB5F0 /* FMDB-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FMDB";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4D82BBF9AB540CBDED137E2349987590 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61AD4E44A75FDB1E2C0FD598D6B03547 /* NSObject+YYModel.h in Headers */,
+				5A050CE21F2FD1A50AC3998D952FF2D9 /* YYClassInfo.h in Headers */,
+				9B4CE6F56A8746BBB589978CD6AD2121 /* YYModel.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57BA9DB8869EB3A6D94D1EECBAD96CFC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF8C6E59A4C80642EE6CDCF9AA609C4E /* LKDB+Mapping.h in Headers */,
+				A630A49F72F59D9550B95962640D6156 /* LKDBHelper.h in Headers */,
+				F1F92B7DF570D31F4F1048DB042FE206 /* LKDBUtils.h in Headers */,
+				46403ACC9EE7FEDE3299E385D32467C4 /* NSObject+LKDBHelper.h in Headers */,
+				E39C80B8B21829D1854F5356A492D22C /* NSObject+LKModel.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A93D3ABB603D66C647446B37AA29FE64 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D852415DFD46E85C293E0DDE01868EA2 /* FMDatabase.h in Headers */,
+				F00CCFAB93A4F18419CD91217B1D5F66 /* FMDatabaseAdditions.h in Headers */,
+				2012864C735C3DD88ECE425F6C981F6B /* FMDatabasePool.h in Headers */,
+				99714143FA44A34F87D1F2AA6D254177 /* FMDatabaseQueue.h in Headers */,
+				889D48A9B81ADF617C1D4E4E9473E3A9 /* FMDB.h in Headers */,
+				398A5C11EFB816892FD5E18AD24F03D4 /* FMResultSet.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD4AF2E33D1654A86329A3DC32F9B176 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D3B71BDA4F59077AFD2475578531A59 /* SocketRocket.h in Headers */,
+				984A7069626E5CD95F75D50BB182D97D /* SRWebSocket.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2370A2A05D3BB543D5201B42527C3E48 /* YYModel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64D91F7C9988C2B735F5CB9955E3720D /* Build configuration list for PBXNativeTarget "YYModel" */;
+			buildPhases = (
+				BA2581448CB198E869DBE065BD6BE5D2 /* Sources */,
+				4615358C7C936390EF45A0B6AC8BE12A /* Frameworks */,
+				4D82BBF9AB540CBDED137E2349987590 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YYModel;
+			productName = YYModel;
+			productReference = E0B166A1B027B1C9CC622D049CE9C5AD /* libYYModel.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		34354E8D10711B9E5651982F93910E0B /* Pods-socketAndLKDBHelperDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EFCD635F024D42BA1EE84C31E141D68 /* Build configuration list for PBXNativeTarget "Pods-socketAndLKDBHelperDemo" */;
+			buildPhases = (
+				4ABA32B9E51C77F45231AF27B4A277AF /* Sources */,
+				5E4CEFA5430E2C4E38DB90F1EB9DDA98 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC2E9EA8C2CD2648E8A19E16B125EF43 /* PBXTargetDependency */,
+				6BE821B9ADA45A5B9F199A2DD5218A8B /* PBXTargetDependency */,
+				B828CB3973EBC1E31866491282329283 /* PBXTargetDependency */,
+				1EA16855CDD5A186DBC173C5CF967392 /* PBXTargetDependency */,
+			);
+			name = "Pods-socketAndLKDBHelperDemo";
+			productName = "Pods-socketAndLKDBHelperDemo";
+			productReference = 125041AB6C76B6BA9EE2A98ED9E5EEAD /* libPods-socketAndLKDBHelperDemo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		65FDD9BECC6AC1E0542C248D460A461B /* SocketRocket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5578338375EC9E317AAD6D225553F8B2 /* Build configuration list for PBXNativeTarget "SocketRocket" */;
+			buildPhases = (
+				8ED133D5113BB01E24112821A2C5868A /* Sources */,
+				1B6DC06679AB716D8333F73FE8434E49 /* Frameworks */,
+				CD4AF2E33D1654A86329A3DC32F9B176 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SocketRocket;
+			productName = SocketRocket;
+			productReference = 4D0762E7136BA213710B3D054E9BD2AD /* libSocketRocket.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		8642CC820CE8C5B88C113D7F47AF4BC3 /* FMDB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BA066B3D32C553BF37E3322F9113F02 /* Build configuration list for PBXNativeTarget "FMDB" */;
+			buildPhases = (
+				ADE36E87832B736E1FAF9E50036C1530 /* Sources */,
+				025694188CB9A7D96CC58750018B4FFC /* Frameworks */,
+				A93D3ABB603D66C647446B37AA29FE64 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FMDB;
+			productName = FMDB;
+			productReference = 63C445DEBFAC4DB6FB7F7296B080DB49 /* libFMDB.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F1A57F063DAC9B33748B129DD30F145E /* LKDBHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7840A023502FF7F2BF7CF7C9F52D344 /* Build configuration list for PBXNativeTarget "LKDBHelper" */;
+			buildPhases = (
+				C7710A45777D98ECA9C2E94C0E8B565F /* Sources */,
+				05525BC1D025DDCC72B7BA386E0D8B8D /* Frameworks */,
+				57BA9DB8869EB3A6D94D1EECBAD96CFC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4690D85B0C22409FCF8AFF9CB08D6ECD /* PBXTargetDependency */,
+			);
+			name = LKDBHelper;
+			productName = LKDBHelper;
+			productReference = 30357179BEC0946E30E6FA1B55374F19 /* libLKDBHelper.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = B418B61BC63FE3851A8BE6847D2A1D20 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8642CC820CE8C5B88C113D7F47AF4BC3 /* FMDB */,
+				F1A57F063DAC9B33748B129DD30F145E /* LKDBHelper */,
+				34354E8D10711B9E5651982F93910E0B /* Pods-socketAndLKDBHelperDemo */,
+				65FDD9BECC6AC1E0542C248D460A461B /* SocketRocket */,
+				2370A2A05D3BB543D5201B42527C3E48 /* YYModel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4ABA32B9E51C77F45231AF27B4A277AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5232FFA00C3741EBB322CCDB48A87C79 /* Pods-socketAndLKDBHelperDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8ED133D5113BB01E24112821A2C5868A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40BF33D7AC4C943D0FBCA285CD12E81E /* SocketRocket-dummy.m in Sources */,
+				934A66BF4204B4BE633770EA6119B4A2 /* SRWebSocket.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADE36E87832B736E1FAF9E50036C1530 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6199817CB29DADBC9AB1D4C44E52F5BA /* FMDatabase.m in Sources */,
+				4DB541C1C41B1C597EC36CDAB5243D1A /* FMDatabaseAdditions.m in Sources */,
+				8021697A1557D425AC130472DA1317CC /* FMDatabasePool.m in Sources */,
+				98ABF277A45F1AB72A8D02D53FFE67BF /* FMDatabaseQueue.m in Sources */,
+				C40CFE1274D588CA1A9DF9394BF76EAE /* FMDB-dummy.m in Sources */,
+				4B3B2EABA01FE0065CA6693CEE33CA92 /* FMResultSet.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA2581448CB198E869DBE065BD6BE5D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC6E22BB87AE0B8A070383FFB57EC2B9 /* NSObject+YYModel.m in Sources */,
+				5205E0282101FD04A10C63E038D36212 /* YYClassInfo.m in Sources */,
+				6A2E6130872E513D521314BBE5049250 /* YYModel-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7710A45777D98ECA9C2E94C0E8B565F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E065ACEDC46C993E391E7D73A7FBD3DD /* LKDB+Mapping.m in Sources */,
+				C8028BEEFB6B67ADCE2D7A866C4F65BA /* LKDBHelper-dummy.m in Sources */,
+				B8379232B772FFD72E2093D24A2B0049 /* LKDBHelper.m in Sources */,
+				7B84DAB78DA8A54B59648D4329CF8757 /* LKDBUtils.m in Sources */,
+				16E633322189E709B463FC5A4A90070A /* NSObject+LKDBHelper.m in Sources */,
+				A400111EAE1E4EFFEA196EE2D9D130AC /* NSObject+LKModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1EA16855CDD5A186DBC173C5CF967392 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YYModel;
+			target = 2370A2A05D3BB543D5201B42527C3E48 /* YYModel */;
+			targetProxy = C9C4E58E1145078154B5892C60BA8174 /* PBXContainerItemProxy */;
+		};
+		4690D85B0C22409FCF8AFF9CB08D6ECD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FMDB;
+			target = 8642CC820CE8C5B88C113D7F47AF4BC3 /* FMDB */;
+			targetProxy = A10602E599029A2C7444F6D1715615FE /* PBXContainerItemProxy */;
+		};
+		6BE821B9ADA45A5B9F199A2DD5218A8B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LKDBHelper;
+			target = F1A57F063DAC9B33748B129DD30F145E /* LKDBHelper */;
+			targetProxy = DA78AE7EBFD59E843FF41499B8BC3E0D /* PBXContainerItemProxy */;
+		};
+		AC2E9EA8C2CD2648E8A19E16B125EF43 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FMDB;
+			target = 8642CC820CE8C5B88C113D7F47AF4BC3 /* FMDB */;
+			targetProxy = E781AB5C044914AEC9FC4FDFF19B8F20 /* PBXContainerItemProxy */;
+		};
+		B828CB3973EBC1E31866491282329283 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SocketRocket;
+			target = 65FDD9BECC6AC1E0542C248D460A461B /* SocketRocket */;
+			targetProxy = D3A0E1A466ED35A013A46D02CEDE73C9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		04868A3980D9CD8079F7CA99C00A7382 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB72AF9DFA6DB973348A4441FE5D1D84 /* Pods-socketAndLKDBHelperDemo.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		14DC5BAF9F2D73AE90C675175085A05D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 698136B025029F35BD9860CB37E53014 /* FMDB.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FMDB/FMDB-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		2719F0EC923C1128208FC287B3BEDA6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F977723E58E41B2D252D8D8E55F9959 /* YYModel.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/YYModel/YYModel-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		3BE8ADB61BABCE9314EE1526AA83BEEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F977723E58E41B2D252D8D8E55F9959 /* YYModel.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/YYModel/YYModel-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		4D451B426398296A1C32224CD079340E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C614E2156595E9AD00D6D60C1C4E998E /* LKDBHelper.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/LKDBHelper/LKDBHelper-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		5E2F95937BD27829D299193A3165F929 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 698136B025029F35BD9860CB37E53014 /* FMDB.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FMDB/FMDB-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		6BFA32E543580BA26B162B74E786F0B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F77BAD4588BA0115AE90927E67E7B59B /* SocketRocket.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SocketRocket/SocketRocket-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		71CC68A62EFA9587EBA70A11585B775B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F77BAD4588BA0115AE90927E67E7B59B /* SocketRocket.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SocketRocket/SocketRocket-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		AADB9822762AD81BBAE83335B2AB1EB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B1B5EB0850F98CB5AECDB015B690777F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		BCED9E0ADAABE10A4CFB309BA1108BE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C614E2156595E9AD00D6D60C1C4E998E /* LKDBHelper.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/LKDBHelper/LKDBHelper-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		EF3CA56D1FB8606268520815663B21C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A1883039706637E8D6FAC362728E392 /* Pods-socketAndLKDBHelperDemo.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1BA066B3D32C553BF37E3322F9113F02 /* Build configuration list for PBXNativeTarget "FMDB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E2F95937BD27829D299193A3165F929 /* Debug */,
+				14DC5BAF9F2D73AE90C675175085A05D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1B5EB0850F98CB5AECDB015B690777F /* Debug */,
+				AADB9822762AD81BBAE83335B2AB1EB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EFCD635F024D42BA1EE84C31E141D68 /* Build configuration list for PBXNativeTarget "Pods-socketAndLKDBHelperDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF3CA56D1FB8606268520815663B21C2 /* Debug */,
+				04868A3980D9CD8079F7CA99C00A7382 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5578338375EC9E317AAD6D225553F8B2 /* Build configuration list for PBXNativeTarget "SocketRocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BFA32E543580BA26B162B74E786F0B1 /* Debug */,
+				71CC68A62EFA9587EBA70A11585B775B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64D91F7C9988C2B735F5CB9955E3720D /* Build configuration list for PBXNativeTarget "YYModel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BE8ADB61BABCE9314EE1526AA83BEEC /* Debug */,
+				2719F0EC923C1128208FC287B3BEDA6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7840A023502FF7F2BF7CF7C9F52D344 /* Build configuration list for PBXNativeTarget "LKDBHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D451B426398296A1C32224CD079340E /* Debug */,
+				BCED9E0ADAABE10A4CFB309BA1108BE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

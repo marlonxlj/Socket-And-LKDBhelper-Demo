@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1700BDCE1DDAED890016BBED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1700BDCD1DDAED890016BBED /* main.m */; };
+		1700BDD11DDAED890016BBED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1700BDD01DDAED890016BBED /* AppDelegate.m */; };
+		1700BDD41DDAED890016BBED /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1700BDD31DDAED890016BBED /* ViewController.m */; };
+		1700BDD71DDAED890016BBED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1700BDD51DDAED890016BBED /* Main.storyboard */; };
+		1700BDD91DDAED890016BBED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1700BDD81DDAED890016BBED /* Assets.xcassets */; };
+		1700BDDC1DDAED890016BBED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1700BDDA1DDAED890016BBED /* LaunchScreen.storyboard */; };
+		1700BDE71DDAED8A0016BBED /* socketAndLKDBHelperDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1700BDE61DDAED8A0016BBED /* socketAndLKDBHelperDemoTests.m */; };
+		1700BDF21DDAED8A0016BBED /* socketAndLKDBHelperDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1700BDF11DDAED8A0016BBED /* socketAndLKDBHelperDemoUITests.m */; };
+		1700BE041DDB08950016BBED /* SQliteModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1700BE031DDB08950016BBED /* SQliteModel.m */; };
+		3D00EBFD3366701D2E4C7319 /* libPods-socketAndLKDBHelperDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B41B72C2D258731FBC1BF28 /* libPods-socketAndLKDBHelperDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1700BDE31DDAED890016BBED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1700BDC11DDAED890016BBED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1700BDC81DDAED890016BBED;
+			remoteInfo = socketAndLKDBHelperDemo;
+		};
+		1700BDEE1DDAED8A0016BBED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1700BDC11DDAED890016BBED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1700BDC81DDAED890016BBED;
+			remoteInfo = socketAndLKDBHelperDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1700BDC91DDAED890016BBED /* socketAndLKDBHelperDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = socketAndLKDBHelperDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1700BDCD1DDAED890016BBED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1700BDCF1DDAED890016BBED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1700BDD01DDAED890016BBED /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1700BDD21DDAED890016BBED /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1700BDD31DDAED890016BBED /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1700BDD61DDAED890016BBED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1700BDD81DDAED890016BBED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1700BDDB1DDAED890016BBED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1700BDDD1DDAED890016BBED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1700BDE21DDAED890016BBED /* socketAndLKDBHelperDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = socketAndLKDBHelperDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1700BDE61DDAED8A0016BBED /* socketAndLKDBHelperDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = socketAndLKDBHelperDemoTests.m; sourceTree = "<group>"; };
+		1700BDE81DDAED8A0016BBED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1700BDED1DDAED8A0016BBED /* socketAndLKDBHelperDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = socketAndLKDBHelperDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1700BDF11DDAED8A0016BBED /* socketAndLKDBHelperDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = socketAndLKDBHelperDemoUITests.m; sourceTree = "<group>"; };
+		1700BDF31DDAED8A0016BBED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1700BE021DDB08950016BBED /* SQliteModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQliteModel.h; sourceTree = "<group>"; };
+		1700BE031DDB08950016BBED /* SQliteModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQliteModel.m; sourceTree = "<group>"; };
+		2AE8143CB3716AA940B4FD00 /* Pods-socketAndLKDBHelperDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-socketAndLKDBHelperDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-socketAndLKDBHelperDemo/Pods-socketAndLKDBHelperDemo.release.xcconfig"; sourceTree = "<group>"; };
+		3480344DE01D5B00BE3DFB66 /* Pods-socketAndLKDBHelperDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-socketAndLKDBHelperDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-socketAndLKDBHelperDemo/Pods-socketAndLKDBHelperDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		8B41B72C2D258731FBC1BF28 /* libPods-socketAndLKDBHelperDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-socketAndLKDBHelperDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1700BDC61DDAED890016BBED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D00EBFD3366701D2E4C7319 /* libPods-socketAndLKDBHelperDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1700BDDF1DDAED890016BBED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1700BDEA1DDAED8A0016BBED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1700BDC01DDAED890016BBED = {
+			isa = PBXGroup;
+			children = (
+				1700BDCB1DDAED890016BBED /* socketAndLKDBHelperDemo */,
+				1700BDE51DDAED8A0016BBED /* socketAndLKDBHelperDemoTests */,
+				1700BDF01DDAED8A0016BBED /* socketAndLKDBHelperDemoUITests */,
+				1700BDCA1DDAED890016BBED /* Products */,
+				94FB6C7E0C6D4467ED91912F /* Pods */,
+				D82356D8F12AF675B90F2DAD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1700BDCA1DDAED890016BBED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1700BDC91DDAED890016BBED /* socketAndLKDBHelperDemo.app */,
+				1700BDE21DDAED890016BBED /* socketAndLKDBHelperDemoTests.xctest */,
+				1700BDED1DDAED8A0016BBED /* socketAndLKDBHelperDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1700BDCB1DDAED890016BBED /* socketAndLKDBHelperDemo */ = {
+			isa = PBXGroup;
+			children = (
+				1700BDCF1DDAED890016BBED /* AppDelegate.h */,
+				1700BDD01DDAED890016BBED /* AppDelegate.m */,
+				1700BDD21DDAED890016BBED /* ViewController.h */,
+				1700BDD31DDAED890016BBED /* ViewController.m */,
+				1700BE021DDB08950016BBED /* SQliteModel.h */,
+				1700BE031DDB08950016BBED /* SQliteModel.m */,
+				1700BDD51DDAED890016BBED /* Main.storyboard */,
+				1700BDD81DDAED890016BBED /* Assets.xcassets */,
+				1700BDDA1DDAED890016BBED /* LaunchScreen.storyboard */,
+				1700BDDD1DDAED890016BBED /* Info.plist */,
+				1700BDCC1DDAED890016BBED /* Supporting Files */,
+			);
+			path = socketAndLKDBHelperDemo;
+			sourceTree = "<group>";
+		};
+		1700BDCC1DDAED890016BBED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1700BDCD1DDAED890016BBED /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1700BDE51DDAED8A0016BBED /* socketAndLKDBHelperDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				1700BDE61DDAED8A0016BBED /* socketAndLKDBHelperDemoTests.m */,
+				1700BDE81DDAED8A0016BBED /* Info.plist */,
+			);
+			path = socketAndLKDBHelperDemoTests;
+			sourceTree = "<group>";
+		};
+		1700BDF01DDAED8A0016BBED /* socketAndLKDBHelperDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1700BDF11DDAED8A0016BBED /* socketAndLKDBHelperDemoUITests.m */,
+				1700BDF31DDAED8A0016BBED /* Info.plist */,
+			);
+			path = socketAndLKDBHelperDemoUITests;
+			sourceTree = "<group>";
+		};
+		94FB6C7E0C6D4467ED91912F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3480344DE01D5B00BE3DFB66 /* Pods-socketAndLKDBHelperDemo.debug.xcconfig */,
+				2AE8143CB3716AA940B4FD00 /* Pods-socketAndLKDBHelperDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D82356D8F12AF675B90F2DAD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8B41B72C2D258731FBC1BF28 /* libPods-socketAndLKDBHelperDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1700BDC81DDAED890016BBED /* socketAndLKDBHelperDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1700BDF61DDAED8A0016BBED /* Build configuration list for PBXNativeTarget "socketAndLKDBHelperDemo" */;
+			buildPhases = (
+				46263EF42DB2F4AEDEE38973 /* [CP] Check Pods Manifest.lock */,
+				1700BDC51DDAED890016BBED /* Sources */,
+				1700BDC61DDAED890016BBED /* Frameworks */,
+				1700BDC71DDAED890016BBED /* Resources */,
+				1153B4E03C7FB772E8F81A43 /* [CP] Embed Pods Frameworks */,
+				9B2C45C10113829196637E16 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = socketAndLKDBHelperDemo;
+			productName = socketAndLKDBHelperDemo;
+			productReference = 1700BDC91DDAED890016BBED /* socketAndLKDBHelperDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1700BDE11DDAED890016BBED /* socketAndLKDBHelperDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1700BDF91DDAED8A0016BBED /* Build configuration list for PBXNativeTarget "socketAndLKDBHelperDemoTests" */;
+			buildPhases = (
+				1700BDDE1DDAED890016BBED /* Sources */,
+				1700BDDF1DDAED890016BBED /* Frameworks */,
+				1700BDE01DDAED890016BBED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1700BDE41DDAED890016BBED /* PBXTargetDependency */,
+			);
+			name = socketAndLKDBHelperDemoTests;
+			productName = socketAndLKDBHelperDemoTests;
+			productReference = 1700BDE21DDAED890016BBED /* socketAndLKDBHelperDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1700BDEC1DDAED8A0016BBED /* socketAndLKDBHelperDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1700BDFC1DDAED8A0016BBED /* Build configuration list for PBXNativeTarget "socketAndLKDBHelperDemoUITests" */;
+			buildPhases = (
+				1700BDE91DDAED8A0016BBED /* Sources */,
+				1700BDEA1DDAED8A0016BBED /* Frameworks */,
+				1700BDEB1DDAED8A0016BBED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1700BDEF1DDAED8A0016BBED /* PBXTargetDependency */,
+			);
+			name = socketAndLKDBHelperDemoUITests;
+			productName = socketAndLKDBHelperDemoUITests;
+			productReference = 1700BDED1DDAED8A0016BBED /* socketAndLKDBHelperDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1700BDC11DDAED890016BBED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = XLJ;
+				TargetAttributes = {
+					1700BDC81DDAED890016BBED = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					1700BDE11DDAED890016BBED = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 1700BDC81DDAED890016BBED;
+					};
+					1700BDEC1DDAED8A0016BBED = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 1700BDC81DDAED890016BBED;
+					};
+				};
+			};
+			buildConfigurationList = 1700BDC41DDAED890016BBED /* Build configuration list for PBXProject "socketAndLKDBHelperDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1700BDC01DDAED890016BBED;
+			productRefGroup = 1700BDCA1DDAED890016BBED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1700BDC81DDAED890016BBED /* socketAndLKDBHelperDemo */,
+				1700BDE11DDAED890016BBED /* socketAndLKDBHelperDemoTests */,
+				1700BDEC1DDAED8A0016BBED /* socketAndLKDBHelperDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1700BDC71DDAED890016BBED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1700BDDC1DDAED890016BBED /* LaunchScreen.storyboard in Resources */,
+				1700BDD91DDAED890016BBED /* Assets.xcassets in Resources */,
+				1700BDD71DDAED890016BBED /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1700BDE01DDAED890016BBED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1700BDEB1DDAED8A0016BBED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1153B4E03C7FB772E8F81A43 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-socketAndLKDBHelperDemo/Pods-socketAndLKDBHelperDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		46263EF42DB2F4AEDEE38973 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9B2C45C10113829196637E16 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-socketAndLKDBHelperDemo/Pods-socketAndLKDBHelperDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1700BDC51DDAED890016BBED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1700BDD41DDAED890016BBED /* ViewController.m in Sources */,
+				1700BDD11DDAED890016BBED /* AppDelegate.m in Sources */,
+				1700BDCE1DDAED890016BBED /* main.m in Sources */,
+				1700BE041DDB08950016BBED /* SQliteModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1700BDDE1DDAED890016BBED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1700BDE71DDAED8A0016BBED /* socketAndLKDBHelperDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1700BDE91DDAED8A0016BBED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1700BDF21DDAED8A0016BBED /* socketAndLKDBHelperDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1700BDE41DDAED890016BBED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1700BDC81DDAED890016BBED /* socketAndLKDBHelperDemo */;
+			targetProxy = 1700BDE31DDAED890016BBED /* PBXContainerItemProxy */;
+		};
+		1700BDEF1DDAED8A0016BBED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1700BDC81DDAED890016BBED /* socketAndLKDBHelperDemo */;
+			targetProxy = 1700BDEE1DDAED8A0016BBED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1700BDD51DDAED890016BBED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1700BDD61DDAED890016BBED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1700BDDA1DDAED890016BBED /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1700BDDB1DDAED890016BBED /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1700BDF41DDAED8A0016BBED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1700BDF51DDAED8A0016BBED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1700BDF71DDAED8A0016BBED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3480344DE01D5B00BE3DFB66 /* Pods-socketAndLKDBHelperDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = socketAndLKDBHelperDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.001yumama.socketAndLKDBHelperDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1700BDF81DDAED8A0016BBED /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AE8143CB3716AA940B4FD00 /* Pods-socketAndLKDBHelperDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = socketAndLKDBHelperDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.001yumama.socketAndLKDBHelperDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1700BDFA1DDAED8A0016BBED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = socketAndLKDBHelperDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.001yumama.socketAndLKDBHelperDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/socketAndLKDBHelperDemo.app/socketAndLKDBHelperDemo";
+			};
+			name = Debug;
+		};
+		1700BDFB1DDAED8A0016BBED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = socketAndLKDBHelperDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.001yumama.socketAndLKDBHelperDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/socketAndLKDBHelperDemo.app/socketAndLKDBHelperDemo";
+			};
+			name = Release;
+		};
+		1700BDFD1DDAED8A0016BBED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = socketAndLKDBHelperDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.001yumama.socketAndLKDBHelperDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = socketAndLKDBHelperDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		1700BDFE1DDAED8A0016BBED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = socketAndLKDBHelperDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.001yumama.socketAndLKDBHelperDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = socketAndLKDBHelperDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1700BDC41DDAED890016BBED /* Build configuration list for PBXProject "socketAndLKDBHelperDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1700BDF41DDAED8A0016BBED /* Debug */,
+				1700BDF51DDAED8A0016BBED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1700BDF61DDAED8A0016BBED /* Build configuration list for PBXNativeTarget "socketAndLKDBHelperDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1700BDF71DDAED8A0016BBED /* Debug */,
+				1700BDF81DDAED8A0016BBED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1700BDF91DDAED8A0016BBED /* Build configuration list for PBXNativeTarget "socketAndLKDBHelperDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1700BDFA1DDAED8A0016BBED /* Debug */,
+				1700BDFB1DDAED8A0016BBED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1700BDFC1DDAED8A0016BBED /* Build configuration list for PBXNativeTarget "socketAndLKDBHelperDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1700BDFD1DDAED8A0016BBED /* Debug */,
+				1700BDFE1DDAED8A0016BBED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1700BDC11DDAED890016BBED /* Project object */;
+}

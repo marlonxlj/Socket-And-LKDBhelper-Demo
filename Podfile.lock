@@ -1,0 +1,23 @@
+PODS:
+  - FMDB (2.6.2):
+    - FMDB/standard (= 2.6.2)
+  - FMDB/standard (2.6.2)
+  - LKDBHelper (2.4):
+    - FMDB
+  - SocketRocket (0.5.1)
+  - YYModel (1.0.4)
+
+DEPENDENCIES:
+  - LKDBHelper
+  - SocketRocket
+  - YYModel
+
+SPEC CHECKSUMS:
+  FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
+  LKDBHelper: 1162892ca4ffc28029070d6f40f57b333133f1c4
+  SocketRocket: d57c7159b83c3c6655745cd15302aa24b6bae531
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
+
+PODFILE CHECKSUM: f0e59ade0c07ca4083e7f1d8a03505cb624f1092
+
+COCOAPODS: 1.1.1
